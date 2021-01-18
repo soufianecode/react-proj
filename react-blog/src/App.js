@@ -1,4 +1,3 @@
-import './App.css';
 import Navbar from "./Navbar";
 import Home from "./Home";
 function App() {
@@ -10,8 +9,6 @@ function App() {
       <div className="content">
         <Home />
       </div>
-
-      <p>I liked this { num } times</p>
     </div>
   );
 }
